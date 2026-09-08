@@ -1,0 +1,10 @@
+{
+  "name": "zep-auto-color",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Userscript that colours a ZEP Projektzeit from the selected Projekt and Vorgang",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
