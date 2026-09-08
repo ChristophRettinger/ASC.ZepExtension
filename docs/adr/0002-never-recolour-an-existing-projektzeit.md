@@ -11,5 +11,10 @@ Because the script only ever writes at Projekt/Vorgang-change time, clicking a s
 afterwards is already a durable manual override — whoever acts last wins — so no
 "this colour was set by a human" flag needs storing or honouring anywhere.
 
+In practice this is enforced by selector choice rather than by a runtime check. ZEP names
+the new-entry controls `#projektId` / `#vorgangId` and the edit-mode ones
+`#popup_projektId` / `#popup_vorgangId`, so a script bound to the bare ids is structurally
+incapable of seeing an edit dialog.
+
 This will look like a bug to anyone who opens an old uncoloured entry and watches nothing
 happen. It is not.
